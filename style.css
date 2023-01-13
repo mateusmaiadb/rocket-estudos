@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* --bg-url: url(./img/) */
+}
+
+body {
+  background-color: #d9cdf7;
+  font-family: "Crimson Pro", serif;
+}
+
+.sofa {
+  position: absolute;
+  width: 500px;
+  height: 253px;
+  left: 116px;
+  top: 245px;
+  padding: 25px;
+}
+
+.girar {
+  position: absolute;
+  width: 48px;
+  left: 57%;
+  top: 20%;
+}
+
+.title {
+    padding: 12px;
+    position: absolute;
+    left: 110vh;
+    top: 40%;
+    font-size: 60px;
+
+}
+
+#icone{
+  position: absolute;
+  left: 80vh;
+  top: 40vh;
+}
+
+#money{
+  padding: 20px;
+  position: absolute;
+  left: 110vh;
+  top: 50%;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  
+  .sofa{
+    width: 350px;
+    position: absolute;
+    left: -15px;
+    top: 40px;
+  }
+
+  .title{
+    position: absolute;
+    padding: 16px;
+    left: 0;
+    top: 330px;
+    font-size: 40px;
+  }
+
+  #money{
+    position: absolute;
+    left: 0;
+    top: 382px;
+  }
+
+  #icone{
+    
+    position: absolute;
+    left: 45vh;
+    top: 9vh;
+  }
+}
+
