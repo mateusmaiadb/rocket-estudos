@@ -55,10 +55,10 @@ body {
 @media screen and (max-width: 700px) {
   
   .sofa{
-    width: 350px;
+    width: 388px;
     position: absolute;
     left: -15px;
-    top: 40px;
+    top: 97px;
   }
 
   .title{
@@ -76,7 +76,7 @@ body {
   }
 
   #icone{
-    
+    display: none;
     position: absolute;
     left: 45vh;
     top: 9vh;
